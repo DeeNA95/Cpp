@@ -47,6 +47,16 @@ int data::get_enum_label()
     return enum_label;
 }
 
+void data::set_distance(double val)
+{
+    distance = val;
+}
+
+double data::get_distance() const
+{
+    return distance;
+}
+
 std::vector<uint8_t> *data::get_feature_vector()
 {
     return feature_vector;

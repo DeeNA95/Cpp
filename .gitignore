@@ -22,3 +22,14 @@
 mnist_data
 
 main
+test_knn
+
+#tex
+
+*.aux
+*.log
+# *.tex
+
+performance_logs.csv
+.DS_Store
+

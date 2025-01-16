@@ -198,13 +198,13 @@ std::vector<data *> *data_handler::get_validation_data()
     return validation_data;
 }
 
-int main()
-{
-    data_handler *dh = new data_handler();
-    dh->read_feature_vector("./mnist_data/train-images-idx3-ubyte");
-    dh->read_feature_labels("./mnist_data/train-labels-idx1-ubyte");
-    dh->count_classes();
-    dh->split_data();
+// int main()
+// {
+//     data_handler *dh = new data_handler();
+//     dh->read_feature_vector("./mnist_data/train-images-idx3-ubyte");
+//     dh->read_feature_labels("./mnist_data/train-labels-idx1-ubyte");
+//     dh->count_classes();
+//     dh->split_data();
 
-    return 0;
-}
+//     return 0;
+// }
